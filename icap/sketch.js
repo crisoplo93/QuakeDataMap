@@ -38,12 +38,25 @@ function Hpage()
     rect(0,40,1366,5);
 
     image(iesslogo, 450,105);
+    btxt=createP('Bienvenidos')
+    btxt.position(600,150);
+    btxt.style("font","22px arial, sans-serif");
+    logtxt=createP('Nombre de usuario:');
+    logtxt.position(451,280);
+    logtxt.style("font","13px arial, sans-serif");
+    logn= createInput();
+    logn.position(450,320);
+    logn.size(300,20);
+    passtxt=createP('Contraseña:');
+    passtxt.position(451,340);
+    passtxt.style("font","13px arial, sans-serif");
     loginButton= createButton('Iniciar sesión');
     loginButton.position(450,420);
     loginButton.mousePressed(loginb);
-    logn= createInput();
-    logn.position(450,380);
-    logn.size(300,20);
+    passn= createInput();
+    passn.position(450,380);
+    passn.size(300,20);
+
 
 
 }
