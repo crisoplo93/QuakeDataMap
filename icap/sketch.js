@@ -37,7 +37,7 @@ function Hpage()
     noStroke();
     rect(0,40,1366,5);
 
-    image(iesslogo, 10,10);
+    image(iesslogo, 4250,90);
     loginButton= createButton('Iniciar sesión');
     loginButton.position(450,420);
     loginButton.mousePressed(loginb);
