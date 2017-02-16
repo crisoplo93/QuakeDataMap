@@ -17,5 +17,5 @@ Hpage();
 function Hpage()
 {
  background(128,0,128);
- image(pics,window.innerWidth/2,window.innerHeight/2);    
+ image(pics,window.innerWidth/2,0);    
 }
