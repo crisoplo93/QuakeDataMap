@@ -16,6 +16,6 @@ Hpage();
 
 function Hpage()
 {
- background(128,0,128);
+ background(128,100,128);
  image(pics,0,0);    
 }
